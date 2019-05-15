@@ -1,23 +1,26 @@
 <template>
   <div id="wrap">
     <TheHeader/>
+    <TheFooter/>
   </div>
 </template>
 
 <script>
 import TheHeader from '@/components/layouts/TheHeader'
+import TheFooter from '@/components/layouts/TheFooter'
 
 export default {
   name: 'App',
   components: {
-    TheHeader
+    TheHeader,
+    TheFooter
   }
 }
 </script>
 
 <style lang="scss">
 $container-large-desktop: 1200px;
-$btn-primary-bg: #00b5ad;
+$btn-primary-bg: #5ca5a1;
 $btn-primary-border: #00b5ad;
 $label-primary-bg: #00b5ad;
 $pagination-active-bg: #00b5ad;
