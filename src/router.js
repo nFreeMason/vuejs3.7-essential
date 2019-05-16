@@ -5,11 +5,13 @@ import Home from "./views/Home.vue";
 Vue.use(Router);
 
 export default new Router({
+  name: 'router',
+  mode: 'history',
   routes: [
     {
-      path: "/",
-      name: "home",
-      component: Home
+      path: "/auth/register",
+      name: "Register",
+      component: () => import('@/views/auth/Register')
     },
     {
       path: "/about",
