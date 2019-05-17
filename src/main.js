@@ -4,6 +4,7 @@ import router from "./router";
 import store from "./store";
 import axios from "./utils/axios";
 import './directives';
+import './components';
 
 Vue.prototype.$axios = axios;
 
