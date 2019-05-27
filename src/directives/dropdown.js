@@ -18,7 +18,7 @@ export default {
         }
 
         el.addEventListener('click',handler,false)
-        document.addEventListener('click',docmentHandler,false)
+        document.addEventListener('click',documentHandler,false)
         
         el.destroy = () => {
             el.removeEventListener('click',handler,false)
